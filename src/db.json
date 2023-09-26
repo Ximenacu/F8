@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Fachada", 
+        "fotos":[
+            {
+                "path": "", 
+                "notes": "", 
+                "area": ","
+            },
+            {
+                "path": "", 
+                "notes": "", 
+                "area": ","
+            }
+        ]
+    }, 
+    {
+        "name": "Cuartos", 
+        "area": {
+            "Principal":{
+                "fotos":[
+                    {
+                        "path": "", 
+                        "notes": ""
+                    },
+                    {
+                        "path": "", 
+                        "notes": ""
+                    }
+                ]
+            }, 
+            "Cuarto con Tapanco 1":{
+                "fotos":[
+                    {
+                        "path": "", 
+                        "notes": ""
+                    },
+                    {
+                        "path": "", 
+                        "notes": ""
+                    }
+                ]
+            }, 
+            "Cuarto con Tapanco 2":{
+                "fotos":[
+                    {
+                        "path": "", 
+                        "notes": ""
+                    },
+                    {
+                        "path": "", 
+                        "notes": ""
+                    }
+                ]
+            },
+            "Cuarto 4":{
+                "fotos":[
+                    {
+                        "path": "", 
+                        "notes": ""
+                    },
+                    {
+                        "path": "", 
+                        "notes": ""
+                    }
+                ]
+            }
+        }
+    }, 
+    {
+        "name": "Vista y Roof", 
+        "fotos":[
+            {
+                "path": "", 
+                "notes": ""
+            },
+            {
+                "path": "", 
+                "notes": ""
+            }
+        ]
+    }, 
+    {
+        "name": "Cocina"
+    }, 
+    {
+        "name": "Planta Baja", 
+        "area": {
+            "Sala":{
+
+            }, 
+            "Oficina":{}, 
+            "Medio Baño":{},
+            "Cocina":{},
+            "Cuarto de Lavado":{}
+        }
+    }, 
+    {
+        "name": "Jardín"
+    }, 
+    {
+        "name": "Fraccionamiento"
+    }, 
+    {
+        "name": "Detalles"
+    }, 
+    {
+        "name": "Otras Áreas"
+    }
+
+   
+]
