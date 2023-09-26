@@ -1,10 +1,10 @@
-import view from '../images/VISTA2.jpg'
-import icon1 from '../images/icons/homeW.png'
-import icon2 from '../images/icons/showerW.png'
-import icon3 from '../images/icons/excavatorW.png'
-import icon4 from '../images/icons/happinessW.png'
-import img1 from '../images/fachada2.jpg'
-import img2 from '../images/fachadaDetras.jpg'
+import view from '../images/Vista y Roof/VISTA2.jpg'
+import icon1 from '../icons/homeW.png'
+import icon2 from '../icons/showerW.png'
+import icon3 from '../icons/excavatorW.png'
+import icon4 from '../icons/happinessW.png'
+import img1 from '../images/Fachada/fachada1.jpg'
+import img2 from '../images/Jardin/fachadaDetras.jpg'
 
 import ImageCarousel from './carousel'
 

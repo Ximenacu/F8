@@ -1,5 +1,5 @@
-import img1 from '../images/SANJE.jpg'
-import img2 from '../images/caseta.jpg'
+import img1 from '../images/Fraccionamiento/SANJE.jpg'
+import img2 from '../images/Fraccionamiento/caseta.jpg'
 
 function Location() {
     return (
