@@ -21,7 +21,7 @@ function App() {
       <div className="body">
 
         <Welcome/>
-        {/* <Fotos/> */}
+        <Fotos/>
         <hr className="section-divider"></hr>
         <Size/>
         <hr className="section-divider"></hr>

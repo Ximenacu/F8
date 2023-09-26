@@ -38,6 +38,14 @@
   padding: 2%;
 }
 
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 .wrapBox{
   display: flex;
   flex-wrap: wrap;
@@ -135,6 +143,14 @@ iframe{
 
 .opts button{
   margin: 1%;
+}
+
+.lilimgs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
 }
 
 

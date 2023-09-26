@@ -15,97 +15,97 @@
         ]
     }, 
     {
-        "name": "Cuartos",
+        "name": "Recamaras",
         "fotos":[
             {
-                "path": "p_vista", 
-                "notes": "Vista del Cuarto Principal", 
-                "area": "Cuarto Principal"
+                "path": "p_vista.jpg", 
+                "notes": "Vista de la Recamara Principal", 
+                "area": "Recamara Principal"
             },
             {
-                "path": "p_baño", 
+                "path": "p_baño.jpg", 
                 "notes": "Baño principal", 
-                "area": "Cuarto Principal"
+                "area": "Recamara Principal"
             },
             {
-                "path": "p_closet", 
+                "path": "p_closet.jpg", 
                 "notes": "Entrada del closet principal.", 
-                "area": "Cuarto Principal"
+                "area": "Recamara Principal"
             },
             {
-                "path": "c1_entrada", 
-                "notes": "Entrada del primer cuarto con tapanco. Este cuarto ve hacia la calle.", 
-                "area": "Cuarto con Tapanco 1"
+                "path": "c1_entrada.jpg", 
+                "notes": "Entrada del primer Recamara con tapanco. Este Recamara ve hacia la calle.", 
+                "area": "Recamara con Tapanco 1"
             },
             {
-                "path": "c1_1", 
+                "path": "c1_1.jpg", 
                 "notes": "Planta Baja. La puerta da hacia el baño y vestidor.", 
-                "area": "Cuarto con Tapanco 1"
+                "area": "Recamara con Tapanco 1"
             },
             {
-                "path": "c1_2", 
+                "path": "c1_2.jpg", 
                 "notes": "", 
-                "area": "Cuarto con Tapanco 1"
+                "area": "Recamara con Tapanco 1"
             },
             {
-                "path": "c1_3", 
+                "path": "c1_3.jpg", 
                 "notes": "", 
-                "area": "Cuarto con Tapanco 1"
+                "area": "Recamara con Tapanco 1"
             },
             {
-                "path": "c1_baño", 
+                "path": "c1_baño.jpg", 
                 "notes": "Baño con vestidor", 
-                "area": "Cuarto con Tapanco 1"
+                "area": "Recamara con Tapanco 1"
             },
             {
-                "path": "c1_closet", 
+                "path": "c1_closet.jpg", 
                 "notes": "Baño con vestidor", 
-                "area": "Cuarto con Tapanco 1"
+                "area": "Recamara con Tapanco 1"
             },
             {
-                "path": "c1_tapanco", 
+                "path": "c1_tapanco.jpg", 
                 "notes": "Planta Alta.", 
-                "area": "Cuarto con Tapanco 1"
+                "area": "Recamara con Tapanco 1"
             },
             {
-                "path": "c1_tapanco2", 
+                "path": "c1_tapanco2.jpg", 
                 "notes": "Planta Alta.", 
-                "area": "Cuarto con Tapanco 1"
+                "area": "Recamara con Tapanco 1"
             },
             {
-                "path": "c2_1", 
-                "notes": "Planta Baja del segundo cuarto con tapanco. Este cuarto tiene  el muro de escalar, closet, y su baño conecta con el tercer cuarto.", 
-                "area": "Cuarto con Tapanco 2"
+                "path": "c2_1.jpg", 
+                "notes": "Planta Baja del segundo Recamara con tapanco. Este Recamara tiene  el muro de escalar, closet, y su baño conecta con el tercer Recamara.", 
+                "area": "Recamara con Tapanco 2"
             },
             {
-                "path": "c2_2", 
-                "notes": "Planta Baja del segundo cuarto con tapanco. Este cuarto tiene el muro de escalar y su baño conecta con el tercer cuarto. (Puerta de la izquierda: Baño. Puerta de la derecha: entrada)", 
-                "area": "Cuarto con Tapanco 2"
+                "path": "c2_2.jpg", 
+                "notes": "Planta Baja del segundo Recamara con tapanco. Este Recamara tiene el muro de escalar y su baño conecta con el tercer Recamara. (Puerta de la izquierda: Baño. Puerta de la derecha: entrada)", 
+                "area": "Recamara con Tapanco 2"
             },
             {
-                "path": "muro", 
-                "notes": "El muro de escalar es una manera divertida de subir al segundo piso de este cuarto", 
-                "area": "Cuarto con Tapanco 2"
+                "path": "muro.jpg", 
+                "notes": "El muro de escalar es una manera divertida de subir al segundo piso de este Recamara", 
+                "area": "Recamara con Tapanco 2"
             },
             {
-                "path": "muro2", 
+                "path": "muro2.jpg", 
                 "notes": "Tapanco visto desde abajo", 
-                "area": "Cuarto con Tapanco 2"
+                "area": "Recamara con Tapanco 2"
             },
             {
-                "path": "c2_baño", 
-                "notes": "Baño completo que conecta con el tercer cuarto", 
-                "area": "Cuarto con Tapanco 2"
+                "path": "c2_baño.jpg", 
+                "notes": "Baño completo que conecta con el tercer Recamara", 
+                "area": "Recamara con Tapanco 2"
             },
             {
-                "path": "c2_baño2", 
-                "notes": "Baño completo que conecta con el tercer cuarto", 
-                "area": "Cuarto con Tapanco 2"
+                "path": "c2_baño2.jpg", 
+                "notes": "Baño completo que conecta con el tercer Recamara", 
+                "area": "Recamara con Tapanco 2"
             },
             {
-                "path": "c3", 
-                "notes": "Cuarto sin tapanco con vista a la calle que conecta con el Cuarto con Tapanco 2", 
-                "area": "Cuarto #3"
+                "path": "c3.jpg", 
+                "notes": "Recamara sin tapanco con vista a la calle que conecta con el Recamara con Tapanco 2", 
+                "area": "Recamara #3"
             }
         ]
     }, 
@@ -117,17 +117,17 @@
         "name": "Cocina", 
         "fotos":[
             {
-                "path": "cocina1", 
+                "path": "cocina1.jpg", 
                 "notes": "Cocina en l planta baja, con vista al jardín y barra", 
                 "area": ""
             },
             {
-                "path": "cocina2", 
+                "path": "cocina2.jpg", 
                 "notes": "", 
                 "area": ""
             },
             {
-                "path": "cocina3", 
+                "path": "cocina3.jpg", 
                 "notes": "", 
                 "area": ""
             }
