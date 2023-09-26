@@ -4,7 +4,7 @@ import Fotos from './components/fotos'
 import Size from './components/size'
 import Location from './components/location'
 
-import hamIcon from './images/icons/menus.png'
+import hamIcon from './icons/menus.png'
 // style={{display: "flex"}}
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       <div className="body">
 
         <Welcome/>
-        <Fotos/>
+        {/* <Fotos/> */}
         <hr className="section-divider"></hr>
         <Size/>
         <hr className="section-divider"></hr>

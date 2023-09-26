@@ -7,7 +7,7 @@ function Location() {
         <h1 className="Title" >Ubicación</h1>
 
         <div className='imgcont wrapBox' >
-          <img id="wrp" src={img1} ></img>
+          <img id="wrp" src={img1} style={{margin: "10px"}} ></img>
           <img id="wrp" src={img2} ></img>
         </div>
 
@@ -16,7 +16,7 @@ function Location() {
           <h4 id="wrp" >A pie del Anillo Vial Fray Junípero Serra,  San Jerónimo es un fraccionamiento tranquilo que cuenta con vigilancia las 24 horas, casa club con alberca y una ubicación excelente. </h4>
         </div>
 
-        <div id="blue" style={{padding: "3%"}} >
+        <div id="blue" style={{padding: "3%", minWidth: "40vw"}} >
           <h2  >Trayectos</h2>
           <div id="table">
             <div>

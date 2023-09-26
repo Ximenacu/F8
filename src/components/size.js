@@ -1,6 +1,6 @@
-import icon1 from '../images/icons/land.png'
-import icon2 from '../images/icons/gardening.png'
-import icon3 from '../images/icons/excavatorW.png'
+import icon1 from '../icons/land.png'
+import icon2 from '../icons/gardening.png'
+import icon3 from '../icons/excavatorW.png'
 
 function Size() {
     return (
@@ -28,7 +28,7 @@ function Size() {
                 </div>
             </div>
 
-            <h2>Planos</h2>
+            {/* <h2>Planos</h2> */}
 
         </div>
     );
