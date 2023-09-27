@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/F8/static/css/main.ed16a73b.css",
-    "main.js": "/F8/static/js/main.3f3c8d3d.js",
+    "main.css": "/F8/static/css/main.676435c5.css",
+    "main.js": "/F8/static/js/main.a57c8196.js",
     "static/js/787.28cb0dcd.chunk.js": "/F8/static/js/787.28cb0dcd.chunk.js",
+    "static/media/mail.png": "/F8/static/media/mail.1c4e30f528c073e9322d.png",
     "static/media/fachada1.jpg": "/F8/static/media/fachada1.087ce8e724ccde4c580b.jpg",
     "static/media/VISTA2.jpg": "/F8/static/media/VISTA2.19afd4ccf3f9ebd9e204.jpg",
     "static/media/SANJE.jpg": "/F8/static/media/SANJE.afcaf4ec40c2f44647dd.jpg",
     "static/media/fachadaDetras.jpg": "/F8/static/media/fachadaDetras.5506dd717ce935188fab.jpg",
-    "static/media/p_vista.jpg": "/F8/static/media/p_vista.3a4e02f74d6147f6b579.jpg",
     "static/media/caseta.jpg": "/F8/static/media/caseta.ad3bae6530840a941c75.jpg",
+    "static/media/logo.svg": "/F8/static/media/logo.b5abf567496d653c5cd57ae6cbc0b12a.svg",
     "index.html": "/F8/index.html",
-    "main.ed16a73b.css.map": "/F8/static/css/main.ed16a73b.css.map",
-    "main.3f3c8d3d.js.map": "/F8/static/js/main.3f3c8d3d.js.map",
+    "main.676435c5.css.map": "/F8/static/css/main.676435c5.css.map",
+    "main.a57c8196.js.map": "/F8/static/js/main.a57c8196.js.map",
     "787.28cb0dcd.chunk.js.map": "/F8/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed16a73b.css",
-    "static/js/main.3f3c8d3d.js"
+    "static/css/main.676435c5.css",
+    "static/js/main.a57c8196.js"
   ]
 }
