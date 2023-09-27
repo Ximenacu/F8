@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import fotosData from '../db.json'
 import img from '../images/Cuartos/p_vista.jpg'
+import arrowL from '../icons/left-arrow.png'
+import arrowR from '../icons/right-arrow.png'
 
 function Fotos () {
     console.log(fotosData);
@@ -63,16 +65,32 @@ function Fotos () {
                 }
 
                 <div className='flex' >
-                    <button onClick={()=>{activeArr("L")}}>Anterior</button>
-                    <img src={process.env.PUBLIC_URL + `/images/${fotosData[area].name}/${fotosData[area].fotos[active].path}`} 
-                    style={{maxHeight:"75vh", maxWidth: "90vw"}} ></img>
-                    <button onClick={()=>{activeArr("R")}}>Siguiente</button>
+                    <button onClick={()=>{activeArr("L")}}>
+                        <img src={arrowL} ></img>
+                    </button>
+
+                    <div className="image-container" >
+                        <img className="image"
+                        src={process.env.PUBLIC_URL + `/images/${fotosData[area].name}/${fotosData[area].fotos[active].path}`} 
+                        style={{maxHeight:"75vh", maxWidth: "90vw"}} ></img>
+
+                    {fotosData[area].fotos[active].notes ?
+                        <div className="overlay flex">
+                            {fotosData[area].fotos[active].notes} 
+                        </div>
+                        : 
+                        null
+                    }
+                        
+                    </div>
+
+                    <button onClick={()=>{activeArr("R")}}>
+                        <img src={arrowR} ></img>
+                    </button>
                     
                 </div>
 
-                <div>
-                    {fotosData[area].fotos[active].notes}
-                </div>
+                
             <div></div>
             </div>
 

@@ -153,10 +153,46 @@ iframe{
 
 }
 
+.image-container{
+  position: relative;
+  /* display: inline-block; */
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  /*background-color: rgba(0, 0, 0, 0.5);  Semi-transparent black background */
+  /* opacity: 1;  */
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  transition: opacity 0.3s; /* Add a smooth fade transition */
+  color: white
+}
+
+.image-container:hover .overlay {
+  opacity: 0;
+}
+
+/* --------- conntact */
+.contactBox{
+  background-color: rgb(230, 227, 227);
+  border-radius: 10px;
+  padding: 3%;
+  width: 80vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 
-
-/* -----------------------body */
+/* -----------------------Footer */
 footer {
+  display: flex;
   background-color: #282c34;
+  color: white;
+  padding: 1% 10%;
 }
