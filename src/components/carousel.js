@@ -8,7 +8,7 @@ const ImageCarousel = ({ images }) => {
       <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true}>
         {images.map((image, index) => (
           <div key={index}>
-            <img src={image} alt={`Image ${index}`} />
+            <img src={image} alt={`Image ${index}`} style={{borderRadius: "20px"}} />
           </div>
         ))}
       </Carousel>

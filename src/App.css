@@ -1,41 +1,78 @@
+/* COLOREs
+dark grey #282C34
+light grey #D9D9D9
+blue #335B68
+green #80A93D */
+.tgrey{
+  color: #D9D9D9;
+}
+.tblue{
+  color: #335B68;
+}
+.twhite{
+  color: #FFFFFF;
+}
+.tgreen{
+  color: #789c3e;
+}
+
 .App {
   text-align: center;
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  display: flex;
-  align-items: center;
+/* ---------- HEADER */
+.App header {
+  background-color: #282C34;
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 5%;
-  
+  padding: 2% 5%;
+
+  position: fixed;
+  top: 0; /* Stick the header to the top of the viewport */
+  left: 0; 
+  width: 100vw;
+  z-index: 2;
 }
 
-/* -----------------------body */
-/* .body{
-  flex: 1;
-}
-*/
-/* .view{
-  min-width:100vw;
-  max-width: 100%; 
-  height: auto;
-}  */
+.menu{
+  position: absolute;
+  right: 0;
+  z-index: 5;
 
-.section-divider {
-  border: none;
-  border-top: 3px solid #335b68; /* Blue color (#335b68) */
-  margin: 0% 10%; /* Adjust the margin as needed to control spacing */
+  background-color: #f3f3f3;
+  border-radius: 0 0 0 20px;
+  width: 45vw;
+  max-width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: fixed;
 }
 
-.sec{
-  margin: 2%;
-  padding: 2%;
+.ham{
+  width: 5vw;
+  max-width: 42px;
+}
+
+.exit{
+  width:100vw;
+  height: 100vh;
+  z-index: 3;
+  position: absolute;
+  transition: opacity 0.3s;
+
+}
+
+/* -----------templates */
+.section{
+  margin-bottom: 5%;
+}
+.sectionb{
+  margin-bottom: 10%;
+}
+
+.padd3{
+  padding: 3%;
 }
 
 .flex{
@@ -43,106 +80,130 @@
   justify-content: center;
   align-items: center;
 }
-
-
-
 .wrapBox{
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
-  
 }
 
+.noStyle{
+  background: none;
+  border: none;
+}
+
+/* -----------------------body */
+/* .body{
+  background-color: #0F1013;
+} */
+
+.Title{
+  margin-bottom: 5%;
+  margin-top: 2%;
+  font-family: 'Playfair Display SC', serif;
+  color: #335B68;
+}
+.subtitle{
+  font-family: 'Roboto', sans-serif;
+}
+
+.col{
+  flex-direction: column;
+}
+
+.section-divider {
+  border-top: 3px solid #335b68; /* Blue color (#335b68) */
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 30px;
+}
+/* ----------- Welcome */
 .view {
   background-image: url('./images/Vista y Roof/VISTA2.jpg');
   background-size: cover; /* Adjust as needed */
   background-repeat: no-repeat; /* Adjust as needed */
   background-position: center; /* Adjust as needed */
 
-  min-width:100vw;
-  max-width: 100%; 
+  width:100%;
   height: auto;
-  display: flex;
-  justify-content: center;
-  
+  padding:7%;
 }
 
 .transparent{
   background-color: black;
   opacity:.5;
   width: 60%;
-  padding: 3%;
   color: white;
   border-radius: 5px;
 }
 
-.cont{
-  padding: 7%;
-}
-
-/* -----welcome */
-
-#blue{
-  background-color: #165366;
+.green{
+  background-color: #789c3e;
   color: white;
-  margin: 5% 5% 0% 5%;
   border-radius: 20px;
+  width:70vw;
 }
 
 .sec{
-  width: 180px;
-  margin: 3% 0%;
+  max-width: 15vw;
+  min-width: 100px;
+  margin: 20px;
+  text-align: center;
 }
 
-.sec h3{
+.sec img{
   margin: 6% 0%;
 }
 
+#welcomeSec{
+  background-color: #335B68;
+}
 
-.carouselCont{
-  margin: 5% 0%;
+#tbig{
+  color:white;
+  font-size:calc(20px + 3vw);
+}
+
+.grey{
+  width:90vw;
+  background-color: #D9D9D9 ;
+  color: #165366;
+  border-radius: 8px;
+}
+
+
+/* .carouselCont{
+  margin: 3%;
   background-color: #D9D9D9 ;
   border-radius: 20px;
-}
-
-.texto{
-  margin: 2%;
-  padding: 5%;
-
-}
-
-/* location */
+} */
 
 
-.imgcont img{
-  height: auto;
-  /* margin: 1%; */
-  border-radius: 5px;
-}
+/* ----------- fotos */
 
-#wrp{
-  min-width: 40%;
-  max-width: 400px;
-}
-
-#table{
-  display: flex;
-  justify-content: center;
-}
-
-iframe{
-  width: 70vw;
-  height: 40vw;
-}
-
-/*  ---fotos */
 #pill{
   border-radius: 60px ;
+  border: none;
+  padding: 0.1% 1%;
+  margin: 1%;
 }
 
-.opts button{
-  margin: 1%;
+.active-button {
+  background-color: #4f656d;
+  color:white;
+  /* color: #YourTextColor; */
+}
+.inactive-button {
+  background-color: #D9D9D9;
+  /* color: #YourTextColor; */
+}
+
+
+.bordered-image {
+  border: 2px solid green;
+}
+
+#choice{
+  flex-wrap: wrap-reverse;
+  /* align-content: stretch; */
 }
 
 .lilimgs{
@@ -150,12 +211,44 @@ iframe{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  /* width:15%; */
+  min-width: 300px;
+  margin: 3% 2% 0%;
+  align-self:  flex-end;
+  border: 2.5px solid #335b68;
+  border-radius: 5px;
+  padding: 10px 0px;
+}
 
+
+.img:hover{
+  opacity: .5;
+  border: 3px solid green;
+}
+
+
+
+#myfoto{
+  position: relative;
+}
+
+#myfoto button{
+  position: absolute;
+  z-index: 1;
+  height:100%;
+  width: 20%;
+}
+
+#prev{
+  left:0;
+}
+
+#next{
+  right:0
 }
 
 .image-container{
   position: relative;
-  /* display: inline-block; */
 }
 
 .overlay {
@@ -164,35 +257,70 @@ iframe{
   left: 0;
   width: 100%;
   height: 40%;
-  /*background-color: rgba(0, 0, 0, 0.5);  Semi-transparent black background */
-  /* opacity: 1;  */
   background: linear-gradient(
     to top,
     rgba(0, 0, 0, 1) 0%,
     rgba(0, 0, 0, 0) 100%
   );
   transition: opacity 0.3s; /* Add a smooth fade transition */
-  color: white
+  color: white;
+  padding: 12%
 }
 
 .image-container:hover .overlay {
   opacity: 0;
 }
 
+/* ------- location */
+.imgcont img{
+  height: auto;
+  border-radius: 5px;
+}
+
+#wrp{
+
+  max-width: 40vw;
+  min-width: 200px;
+  margin-right: 50px;
+}
+
+iframe{
+  width: 70vw;
+  height: 40vw;
+}
+
 /* --------- conntact */
 .contactBox{
   background-color: rgb(230, 227, 227);
   border-radius: 10px;
-  padding: 3%;
-  width: 80vh;
+  width: 60vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.contactA{
+  margin: 1%;
+  background-color: #D9D9D9;
+  padding: 1%;
+  border-radius: 60px ;
+  text-align: left;
+}
+
+#wame:hover{
+  background-color: #cbcad1;
+}
+
+.contactA img{
+  margin: 1% 2%;
+}
+.lils{
+  flex-basis: 30%;
+}
+
 
 
 /* -----------------------Footer */
 footer {
-  display: flex;
   background-color: #282c34;
   color: white;
-  padding: 1% 10%;
+  /* padding: 1% 10%; */
 }

@@ -5,10 +5,10 @@ import icon3 from '../icons/excavatorW.png'
 function Size() {
     return (
 
-        <div className="Welcome cont">
+        <div className="Size flex col sectionb" id="infosection" >
             <h1 className="Title">Tamaño</h1>
 
-            <div className="wrapBox" id="blue" >
+            <div className="flex wrapBox section padd3 green" >
 
                 <div className="sec" >
                     <h3>Terreno</h3>
@@ -27,8 +27,8 @@ function Size() {
                     <h3>un número m2</h3>
                 </div>
             </div>
-
-            {/* <h2>Planos</h2> */}
+            
+            <div id="locationsection"></div>
 
         </div>
     );

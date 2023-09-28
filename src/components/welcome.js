@@ -1,4 +1,3 @@
-import view from '../images/Vista y Roof/VISTA2.jpg'
 import icon1 from '../icons/homeW.png'
 import icon2 from '../icons/showerW.png'
 import icon3 from '../icons/excavatorW.png'
@@ -9,26 +8,20 @@ import img2 from '../images/Jardin/fachadaDetras.jpg'
 import ImageCarousel from './carousel'
 
 
-
 function Welcome() {
-  return (
-    <div className="Welcome">
-        {/*------- welcome image */}
-        {/* <div back >
-            <img className="view" src={view} ></img>
-        </div>
-        lll */}
 
-        <div className='view cont'>
+  return (
+    <div className="Welcome flex col">
+        <div className='view section flex'>
             
-            <div className='transparent' >
-                <h2>Vive en Querétaro</h2>
-                <t>Un marketing impresionante que hará que compres esta súper casa así. Un marketing impresionante que hará que compres esta súper casa así.</t>
+            <div className='transparent padd3' >
+                <h2 className='subtitle' >Vive en Querétaro</h2>
+                <p>Un marketing impresionante que hará que compres esta súper casa así. Un marketing impresionante que hará que compres esta súper casa así.</p>
             </div>
         </div>
 
         {/*------- welcome image */}
-        <div className="wrapBox" id="blue" >
+        <div className=" section padd3 flex wrapBox green" >
             <div className="sec" >
                 <img src={icon1}></img>
                 <h3>4 Recamaras</h3> 
@@ -48,16 +41,25 @@ function Welcome() {
             
         </div>
 
-        <div className='cont' >
-            <h1 className="Title">¡Bienvenido a la F8!</h1>
-            <div className="carouselCont" >
+        
+
+        <div className='padd3 section' id="welcomeSec" >
+
+            <h1 className="Title" id="tbig" >¡Bienvenido a la F8!</h1>
+            
+            <div className="section" >
                 <ImageCarousel images={[img1, img2, img1, img2]} />
             </div>
             
-            <h4 className='texto' >Ubicada en el fraccionamiento de Misión San Jerónimo, esta casa cuenta con una vista espectacular, 4 recámaras, dos de ellas con doble altura, patio de n metros cuadrados, una excelente ubicación y ... un muro de escalar!</h4>
-            <button type="button" className="btn btn-secondary">Ver todas las fotos</button>
+            <h4 className='section twhite ' >
+                Ubicada en el fraccionamiento de Misión San Jerónimo, <br/>
+                 esta casa cuenta con una vista espectacular, <br/>
+                 4 recámaras, dos de ellas con doble altura, <br/>
+                  patio de n metros cuadrados, una excelente ubicación<br/> y ... un muro de escalar!
+            </h4>
 
         </div>
+        <div id="fotosSection"></div>
         
     </div>
   );
