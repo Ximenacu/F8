@@ -43,7 +43,7 @@ function Welcome() {
 
         
 
-        <div className='padd3 section' id="welcomeSec" >
+        <div className='padd3 section' id="blue" >
 
             <h1 className="Title" id="tbig" >¡Bienvenido a la F8!</h1>
             
@@ -54,8 +54,8 @@ function Welcome() {
             <h4 className='section twhite ' >
                 Ubicada en el fraccionamiento de Misión San Jerónimo, <br/>
                  esta casa cuenta con una vista espectacular, <br/>
-                 4 recámaras, dos de ellas con doble altura, <br/>
-                  patio de n metros cuadrados, una excelente ubicación<br/> y ... un muro de escalar!
+                 4 recámaras, dos de ellas con tapanco, <br/>
+                  jardín, una excelente ubicación<br/> y ... un muro de escalar!
             </h4>
 
         </div>

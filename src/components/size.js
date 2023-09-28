@@ -27,7 +27,26 @@ function Size() {
                     <h3>un número m2</h3>
                 </div>
             </div>
-            
+
+            <div id="blue" className=' padd3'>
+                <h1 className="Title"
+                 style={{color:"white"}} >
+                    Datos Generales
+                </h1>
+                <div className='flex wrapBox' id="aynose" >
+                    <h3>* Sistema de Riego</h3>
+                    <h3>* Hidroneumático</h3>
+                    <h3>* Cuarto de Servicio</h3>
+                    {/* <h3>* 2 Plantas</h3> 
+                    <h3>* Construida en 2016</h3>*/}
+                    <h3>* Estacionamiento Techado</h3>
+
+                    
+
+                </div>
+
+            </div>
+
             <div id="locationsection"></div>
 
         </div>

@@ -2,12 +2,15 @@ import React, { useState } from 'react';
 import fotosData from '../db.json'
 import arrowL from '../icons/left-arrow.png'
 import arrowR from '../icons/right-arrow.png'
+import close from '../icons/close.svg'
 
 function Fotos () {
     console.log(fotosData);
     const [area, setArea]=useState(0);
     const [active, setActive]=useState(0);
     const [activeButton, setActiveButton] = useState(0);
+    const [modal, setModal]=useState(false);
+    console.log("modal: ", modal)
 
 
     function handleAreaChange(n) {
@@ -52,6 +55,8 @@ function Fotos () {
             }
         }
     }
+
+
 
     return (
         <div className="fotos" id="fotosSection" >
@@ -101,7 +106,7 @@ function Fotos () {
                         </button>
 
                         {/* ---- FOTO activa */}
-                        <div className="image-container" >
+                        <div onClick={()=>{setModal(true)}} >
                             <img
                             src={process.env.PUBLIC_URL + `/images/${fotosData[area].name}/${fotosData[area].fotos[active].path}`} 
                             style={{maxHeight:"85vh", maxWidth: "90vw"}} ></img>
@@ -124,8 +129,40 @@ function Fotos () {
                         
                     </div>
                 </div>
-
             </div>
+            
+            {modal ?
+                <div className='imgModal'>
+
+                    <img src={close} className='ham' id="xIcon" onClick={()=>{setModal(false)}} ></img>
+                    <div className='flex' id="myfoto">
+                        {/* ---- anterior */}
+                        <button className='noStyle' id="prev"
+                            onClick={()=>{activeArr("L")}}>
+                            <img src={arrowL} ></img>
+                        </button>
+
+                        {/* ---- FOTO activa */}
+                        <img
+                        src={process.env.PUBLIC_URL + `/images/${fotosData[area].name}/${fotosData[area].fotos[active].path}`} 
+                        style={{maxHeight:"95vh", maxWidth: "95vw"}} ></img>  
+                       
+
+                        {/* ---- siguiente */}
+                        <button className='noStyle' id="next"
+                        onClick={()=>{activeArr("R")}}>
+                            <img src={arrowR} ></img>
+                        </button>
+                        
+                    </div>
+                  
+                    
+                </div>
+                 : 
+                null
+            }
+          
+
         </div>
     )
 

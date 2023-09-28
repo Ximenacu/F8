@@ -8,36 +8,43 @@ function Location() {
         <h1 className="Title" >Ubicación</h1>
 
         <div className='flex wrapBox section' >
-          <img id="wrp" src={img1} style={{marginBottom:"1%" }} ></img>
+          <img id="wrp" src={img1}  ></img>
           <img id="wrp" src={img2} ></img>
         </div>
 
         <div className='flex wrapBox section' >
           <h2 id="wrp" 
-          className='subtitle tblue'
-          style={{marginBottom:"1%" }}
+          className='subtitle tblue sectionb'
+          style={{fontWeight:"bold"}}
            >Misión <br/> San <br/> Jerónimo</h2>
           <h4 id="wrp" >A pie del Anillo Vial Fray Junípero Serra,  San Jerónimo es un fraccionamiento tranquilo que cuenta con vigilancia las 24 horas, casa club con alberca y una ubicación excelente. </h4>
         </div>
 
         <div className='section padd3 green'  style={{ minWidth: "40vw"}} >
-          <h2  >Trayectos</h2>
-          <div  className="flex">
-            <div>
-              <h4>Centro</h4>
-              <h4>Juriquilla</h4>
-              <h4>Plaza Paseo</h4>
-              <h4>HEB </h4>
-              <h4>Hospital </h4> 
+          <h2  className='section' style={{color:"#3d4d24"}} >Trayectos</h2>
+          <div  className="">
+            
+            <div className='flex borderb' >
+              <h4>Centro</h4> 
+              <h4>15 min</h4>
             </div>
-            <div style={{width:"20%"}} ></div>
-            <div>
-            <h4>5 min</h4>
+            <div className='flex borderb'>
+              <h4>Juriquilla</h4> 
               <h4>20 min</h4>
-              <h4>3 min</h4>
-              <h4>5 min</h4>
-              <h4>10 min</h4> 
             </div>
+            <div className='flex borderb'>
+              <h4>Plaza Paseo</h4> 
+              <h4>3 min</h4>
+            </div>
+            <div className='flex borderb'>
+              <h4>HEB</h4> 
+              <h4>5 min</h4>
+            </div>
+            <div className='flex borderb'>
+              <h4>Hospital</h4> 
+              <h4>10 min</h4>
+            </div>
+
           </div>
 
           
