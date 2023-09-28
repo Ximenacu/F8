@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/F8/static/css/main.676435c5.css",
-    "main.js": "/F8/static/js/main.a57c8196.js",
+    "main.css": "/F8/static/css/main.1ded4dd2.css",
+    "main.js": "/F8/static/js/main.f1ed7b8c.js",
     "static/js/787.28cb0dcd.chunk.js": "/F8/static/js/787.28cb0dcd.chunk.js",
     "static/media/mail.png": "/F8/static/media/mail.1c4e30f528c073e9322d.png",
     "static/media/fachada1.jpg": "/F8/static/media/fachada1.087ce8e724ccde4c580b.jpg",
     "static/media/VISTA2.jpg": "/F8/static/media/VISTA2.19afd4ccf3f9ebd9e204.jpg",
     "static/media/SANJE.jpg": "/F8/static/media/SANJE.afcaf4ec40c2f44647dd.jpg",
     "static/media/fachadaDetras.jpg": "/F8/static/media/fachadaDetras.5506dd717ce935188fab.jpg",
-    "static/media/caseta.jpg": "/F8/static/media/caseta.ad3bae6530840a941c75.jpg",
+    "static/media/caseta.jpg": "/F8/static/media/caseta.757a6f97198442d0d9f6.jpg",
+    "static/media/QR whats.jpg": "/F8/static/media/QR whats.d56d4f155ed2cc5f5a31.jpg",
     "static/media/logo.svg": "/F8/static/media/logo.b5abf567496d653c5cd57ae6cbc0b12a.svg",
+    "static/media/f8.svg": "/F8/static/media/f8.eb6935eb6f0ac5fba513216ab8664e59.svg",
     "index.html": "/F8/index.html",
-    "main.676435c5.css.map": "/F8/static/css/main.676435c5.css.map",
-    "main.a57c8196.js.map": "/F8/static/js/main.a57c8196.js.map",
+    "main.1ded4dd2.css.map": "/F8/static/css/main.1ded4dd2.css.map",
+    "main.f1ed7b8c.js.map": "/F8/static/js/main.f1ed7b8c.js.map",
     "787.28cb0dcd.chunk.js.map": "/F8/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.676435c5.css",
-    "static/js/main.a57c8196.js"
+    "static/css/main.1ded4dd2.css",
+    "static/js/main.f1ed7b8c.js"
   ]
 }
