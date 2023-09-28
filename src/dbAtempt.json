@@ -1,0 +1,140 @@
+[
+    {
+        "path": "fachada1.jpg", 
+        "notes": "Además de la entrada principal, la casa cuenta con dos entras alternas: al jardín y al área de oficina de la planta baja.", 
+        "area": "", 
+        "name": "Fachada"
+    },
+    {
+        "path": "fachada2.jpg", 
+        "notes": "", 
+        "area": "", 
+        "name": "Fachada"
+    },
+    {
+        "path": "p_vista.jpg", 
+        "notes": "Vista de la Recamara Principal", 
+        "area": "Recamara Principal", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "p_baño.jpg", 
+        "notes": "Baño principal", 
+        "area": "Recamara Principal", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "p_closet.jpg", 
+        "notes": "Entrada del closet principal.", 
+        "area": "Recamara Principal", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "c1_entrada.jpg", 
+        "notes": "Entrada del primer Recamara con tapanco. Este Recamara ve hacia la calle.", 
+        "area": "Recamara con Tapanco 1", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "c1_1.jpg", 
+        "notes": "Planta Baja. La puerta da hacia el baño y vestidor.", 
+        "area": "Recamara con Tapanco 1", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "c1_2.jpg", 
+        "notes": "", 
+        "area": "Recamara con Tapanco 1", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "c1_3.jpg", 
+        "notes": "", 
+        "area": "Recamara con Tapanco 1", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "c1_baño.jpg", 
+        "notes": "Baño con vestidor", 
+        "area": "Recamara con Tapanco 1", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "c1_closet.jpg", 
+        "notes": "Baño con vestidor", 
+        "area": "Recamara con Tapanco 1", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "c1_tapanco.jpg", 
+        "notes": "Planta Alta.", 
+        "area": "Recamara con Tapanco 1", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "c1_tapanco2.jpg", 
+        "notes": "Planta Alta.", 
+        "area": "Recamara con Tapanco 1", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "c2_1.jpg", 
+        "notes": "Planta Baja del segundo Recamara con tapanco. Este Recamara tiene  el muro de escalar, closet, y su baño conecta con el tercer Recamara.", 
+        "area": "Recamara con Tapanco 2", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "c2_2.jpg", 
+        "notes": "Planta Baja del segundo Recamara con tapanco. Este Recamara tiene el muro de escalar y su baño conecta con el tercer Recamara. (Puerta de la izquierda: Baño. Puerta de la derecha: entrada)", 
+        "area": "Recamara con Tapanco 2", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "muro.jpg", 
+        "notes": "El muro de escalar es una manera divertida de subir al segundo piso de este Recamara", 
+        "area": "Recamara con Tapanco 2", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "muro2.jpg", 
+        "notes": "Tapanco visto desde abajo", 
+        "area": "Recamara con Tapanco 2", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "c2_baño.jpg", 
+        "notes": "Baño completo que conecta con el tercer Recamara", 
+        "area": "Recamara con Tapanco 2", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "c2_baño2.jpg", 
+        "notes": "Baño completo que conecta con el tercer Recamara", 
+        "area": "Recamara con Tapanco 2", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "c3.jpg", 
+        "notes": "Recamara sin tapanco con vista a la calle que conecta con el Recamara con Tapanco 2", 
+        "area": "Recamara #3", 
+        "name": "Recamaras"
+    },
+    {
+        "path": "cocina1.jpg", 
+        "notes": "Cocina en l planta baja, con vista al jardín y barra", 
+        "area": "", 
+        "name": "Cocina"
+    },
+    {
+        "path": "cocina2.jpg", 
+        "notes": "", 
+        "area": "", 
+        "name": "Cocina"
+    },
+    {
+        "path": "cocina3.jpg", 
+        "notes": "", 
+        "area": "", 
+        "name": "Cocina"
+    }
+]

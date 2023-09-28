@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState } from 'react';
 import fotosData from '../db.json'
 import arrowL from '../icons/left-arrow.png'
 import arrowR from '../icons/right-arrow.png'
@@ -10,6 +10,8 @@ function Fotos () {
     const [active, setActive]=useState(0);
     const [activeButton, setActiveButton] = useState(0);
     const [modal, setModal]=useState(false);
+    console.log("modal: ", modal)
+
 
     function handleAreaChange(n) {
         setArea(n);
@@ -54,39 +56,6 @@ function Fotos () {
         }
     }
 
-    //--------------------- new
-    const [currentIndex, setCurrentIndex] = useState(0);
-    const containerRef = useRef(null);
-    useEffect(() => {
-        const container = containerRef.current;
-    
-        const handleScroll = () => {
-          // Calculate the threshold for changing the image (e.g., 50% of container width)
-          const threshold = container.offsetWidth / 2;
-    
-          // Check if the user has scrolled past the threshold to the left
-          if (container.scrollLeft < threshold && currentIndex > 0) {
-            setCurrentIndex(currentIndex - 1);
-          }
-    
-          // Check if the user has scrolled past the threshold to the right
-          if (
-            container.scrollLeft > threshold &&
-            currentIndex < fotosData[area].fotos.length - 1
-          ) {
-            setCurrentIndex(currentIndex + 1);
-          }
-        };
-    
-        // Add scroll event listener to the container
-        container.addEventListener('scroll', handleScroll);
-
-        return () => {
-            // Remove the scroll event listener when the component unmounts
-            container.removeEventListener('scroll', handleScroll);
-          };
-        }, [currentIndex, fotosData[area].fotos]);
-
 
 
     return (
@@ -106,23 +75,20 @@ function Fotos () {
                 <hr className="section-divider"></hr>
             </div>
 
-            {/* ---- todas las fotos en pequeño */}
-            <div className='lilimgs ' id="scrol" >
-                {fotosData[area].fotos.map((foto,index)=>(
-                    <div  key={index}> 
-                        <img src={process.env.PUBLIC_URL + `/images/${fotosData[area].name}/${foto.path}` } 
-                        alt={`Image ${index}`} 
-                        style={{width:"200px"}}
-                        onClick={()=>handleImgChange(index)}
-                        className={`img ${active === index ? 'bordered-image' : ''}`} />                        
-                    </div>
-                ))}
-            </div>
-
-            
-
             <div className='section flex' id="choice" >
-                
+                {/* ---- todas las fotos en pequeño */}
+                <div className='lilimgs '  >
+                    {fotosData[area].fotos.map((foto,index)=>(
+                        <div  key={index} 
+                            style={{marginLeft: "2%"}} > 
+                            <img src={process.env.PUBLIC_URL + `/images/${fotosData[area].name}/${foto.path}` } 
+                            alt={`Image ${index}`} 
+                            style={{maxHeight:"5vw", minHeight:"40px"}}
+                            onClick={()=>handleImgChange(index)}
+                            className={`img ${active === index ? 'bordered-image' : ''}`} />                        
+                        </div>
+                    ))}
+                </div>
 
                 <div style={{flexGrow:"1"}} >
                     {/* ---- titulo foto */}
@@ -163,29 +129,6 @@ function Fotos () {
                         
                     </div>
                 </div>
-            </div>
-            
-            <div
-                className="horizontal-scroll-container"
-                ref={containerRef}
-                style={{ overflowX: 'scroll', whiteSpace: 'nowrap' }}>
-                
-                {fotosData[area].fotos.map((foto, index) => (
-                    <img
-                    key={index}
-                    src={process.env.PUBLIC_URL + `/images/${fotosData[area].name}/${foto.path}`}
-                    alt={`Image ${index}`}
-                    style={{
-                        display: 'inline-block',
-                        width: '100vw', // Adjust the width as needed
-                        height: 'auto', // Maintain aspect ratio
-                        marginRight: '10px', // Add spacing between images
-                    }}
-                    />
-                ))}
-
-                
-
             </div>
             
             {modal ?

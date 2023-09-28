@@ -52,7 +52,7 @@ function App() {
       }
       
 
-      <header className=" flex">
+      {/* <header className=" flex">
         <a href="#up" >
         <img src={f8} style={{height: "10vw", maxHeight:"70px", marginLeft: "10%"}} ></img>
         </a>
@@ -65,13 +65,13 @@ function App() {
           <a href='#contactSection' ><h4>Contacto</h4></a>
         </div> */}
         
-          <img
+         {/*  <img
           className='ham'
             src={hamIconw}
             onClick={()=>{setMenu(true)}}
             alt="Hamburger Icon"
           />
-      </header>
+      </header> */}
 
       <div style={{height: "20vw", maxHeight:"70px"}} id="up"></div>
     
