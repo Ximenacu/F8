@@ -1,4 +1,5 @@
 import './App.css';
+import Header from './components/header'
 import Welcome from './components/welcome'
 import Fotos from './components/fotos'
 import Size from './components/size'
@@ -20,10 +21,14 @@ import hamIconw from './icons/hamIconw.svg'
 
 function App() {
   const [menu, setMenu]=useState(false);
+  const [fotos, setFotos]=useState(false);  
+  //const [field , setField]=useState("Fotos")
 
 
   return (
     <div className="App" >
+      
+      <Header setMenu={setMenu} classN={"hide"} fotos={fotos} setFotos={setFotos}  />
 
       { menu ? (
         <div>
@@ -38,44 +43,50 @@ function App() {
                 alt="Hamburger Icon"
               />
             </div>
-
-            <a href='#fotosSection' onClick={()=>{setMenu(false)}}  ><h4>Fotos</h4></a>
-            <a href='#locationsection' onClick={()=>{setMenu(false)}} ><h4>Ubicación</h4></a>
-            <a href='#infosection' onClick={()=>{setMenu(false)}} ><h4>Más Información</h4></a>
-            <a href='#contactSection' onClick={()=>{setMenu(false)}}  ><h4>Contacto</h4></a>
+            <a href='#up' onClick={()=>{setMenu(false); setFotos(false )}}  ><h4>Home</h4></a>
+            <a href='#fotosSection' onClick={()=>{setMenu(false); setFotos(true )}}  ><h4>Fotos</h4></a>
+            <a href='#locationsection' onClick={()=>{setMenu(false); setFotos(false)}} ><h4>Ubicación</h4></a>
+            <a href='#infosection' onClick={()=>{setMenu(false); setFotos(false)}} ><h4>Más Información</h4></a>
+            <a href='#contactSection' onClick={()=>{setMenu(false); setFotos(false)}}  ><h4>Contacto</h4></a>
           </div>
 
-          <div className='exit' onClick={()=>{setMenu(false)}}  >a</div>
+          <div className='exit' onClick={()=>{setMenu(false)}}  ></div>
+          <Header setMenu={setMenu} classN={""}  />
+        </div>
+        
+      ) : 
+        <Header setMenu={setMenu} classN={""} />
+      }
+
+      { fotos ? (
+        <div>
+          <h1 className='Title' id="fotosSection">Fotos</h1>
+          
+          <Fotos/>
+          <Contact/>
         </div>
       ) : 
-        null
+        <div className="body">
+
+          <Welcome setFotos={setFotos} />
+          <hr className="section-divider"></hr>
+          <Size/>
+          <hr className="section-divider"></hr>
+          <Location/>
+          <hr className="section-divider"></hr>
+          
+          <Contact icons={WA} />
+
+        </div>
+        
       }
       
 
-      {/* <header className=" flex">
-        <a href="#up" >
-        <img src={f8} style={{height: "10vw", maxHeight:"70px", marginLeft: "10%"}} ></img>
-        </a>
+      
 
-        {/* <div className="flex"
-          style={{flexBasis: "70%",justifyContent:"space-around" }}>
-          <a href='#fotosSection' ><h4>Fotos</h4></a>
-          <a href='#locationsection' ><h4>Ubicación</h4></a>
-          <a href='#infosection' ><h4>Más Información</h4></a>
-          <a href='#contactSection' ><h4>Contacto</h4></a>
-        </div> */}
-        
-         {/*  <img
-          className='ham'
-            src={hamIconw}
-            onClick={()=>{setMenu(true)}}
-            alt="Hamburger Icon"
-          />
-      </header> */}
-
-      <div style={{height: "20vw", maxHeight:"70px"}} id="up"></div>
+      {/* <div style={{height: "20vw", maxHeight:"70px"}} id="up"></div> */}
     
-      <div className="body">
+      {/* <div className="body">
 
         <Welcome/>
         <Fotos/>
@@ -87,7 +98,7 @@ function App() {
         
         <Contact icons={WA} />
 
-      </div>
+      </div> */}
 
       <footer className='padd3 flex' >
         <img src={logo} style={{height:"7vh"}} ></img>

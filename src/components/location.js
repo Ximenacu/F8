@@ -5,7 +5,7 @@ function Location() {
     return (
       <div className="Location sectionb"
        style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center" }}>
-        <h1 className="Title" >Ubicación</h1>
+        <h1 className="Title section" >Ubicación</h1>
 
         <div className='flex wrapBox section' >
           <img id="wrp" src={img1}  ></img>
@@ -14,33 +14,35 @@ function Location() {
 
         <div className='flex wrapBox section' >
           <h2 id="wrp" 
-          className='subtitle tblue sectionb'
-          style={{fontWeight:"bold"}}
+          className='Title '
+          style={{marginBottom:"4vh", fontSize:"1.75rem"}}
+          
            >Misión <br/> San <br/> Jerónimo</h2>
+
           <h4 id="wrp" >A pie del Anillo Vial Fray Junípero Serra,  San Jerónimo es un fraccionamiento tranquilo que cuenta con vigilancia las 24 horas, casa club con alberca y una ubicación excelente. </h4>
         </div>
 
-        <div className='section padd3 green'  style={{ minWidth: "40vw"}} >
-          <h2  className='section' style={{color:"#3d4d24"}} >Trayectos</h2>
-          <div  className="">
+        <div className='section padd5 green' style={{minWidth:"80vw", backgroundColor:"#335B68", padding:"3vh"}}  >
+          <h2  style={{color:"#1c2b30", marginBottom:"3vh"}} >Trayectos</h2>
+          <div  >
             
-            <div className='flex borderb' >
+            <div className='AAA borderb' >
               <h4>Centro</h4> 
               <h4>15 min</h4>
             </div>
-            <div className='flex borderb'>
+            <div className='AAA borderb'>
               <h4>Juriquilla</h4> 
               <h4>20 min</h4>
             </div>
-            <div className='flex borderb'>
+            <div className='AAA borderb'>
               <h4>Plaza Paseo</h4> 
               <h4>3 min</h4>
             </div>
-            <div className='flex borderb'>
+            <div className='AAA borderb'>
               <h4>HEB</h4> 
               <h4>5 min</h4>
             </div>
-            <div className='flex borderb'>
+            <div className='AAA borderb'>
               <h4>Hospital</h4> 
               <h4>10 min</h4>
             </div>

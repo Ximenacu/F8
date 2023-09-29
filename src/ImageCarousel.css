@@ -1,15 +1,19 @@
 /* ImageCarousel.css */
-.carousel-container {
-  max-width: 100%;
-}
+  .carousel-container {
+    max-height: 100vh;
+    overflow: hidden;
+  }
 
-.carousel {
+/* .carousel {
   border-radius: 5px;
+} */
+
+.carousel-container{
+  width: 100%;
 }
 
 .carousel .slide img {
-    max-height: 90vh;
     max-width: 100%;
-    width: auto;
+    width: 100%;
     height: auto;
 }

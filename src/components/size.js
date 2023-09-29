@@ -6,30 +6,33 @@ function Size() {
     return (
 
         <div className="Size flex col sectionb" id="infosection" >
-            <h1 className="Title">Tamaño</h1>
+            <h1 className="Title section">Tamaño</h1>
 
-            <div className="flex wrapBox section padd3 green" >
+            <div className="flex section green"
+            style={{width:"90vw", justifyContent:" space-evenly"}} >
 
                 <div className="sec" >
-                    <h3>Terreno</h3>
+                    <h4>Terreno</h4>
                     <img src={icon1}></img>
-                    <h3>335 m2</h3>
+                    <h3>335 m</h3>
                      
                 </div>
                 <div className="sec" >
-                    <h3>Construcción</h3>
-                    <img src={icon3}></img>
-                    <h3>296 m2</h3>
+                    <h4 style={{textAlign:"left"}} 
+                    >Jardín</h4>
+                    <img src={icon2}></img>
+                    <h3>100 m</h3>
                 </div>
                 <div className="sec" >
-                    <h3>Jardín</h3>
-                    <img src={icon2}></img>
-                    <h3>un número m2</h3>
+                    <h5>Construcción</h5>
+                    <img src={icon3}></img>
+                    <h3>296 m</h3>
                 </div>
+                
             </div>
 
             <div id="blue" className=' padd3'>
-                <h1 className="Title"
+                <h1 className="Title section"
                  style={{color:"white"}} >
                     Datos Generales
                 </h1>

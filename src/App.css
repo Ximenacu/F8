@@ -28,12 +28,17 @@ green #80A93D */
   font-size: calc(10px + 2vmin);
   color: white;
   padding: 2% 5%;
-
-  position: fixed;
+  z-index:0;
+  position: relative;
   top: 0; /* Stick the header to the top of the viewport */
   left: 0; 
   width: 100vw;
+  
+}
+#hide{
+  position:fixed;
   z-index: 2;
+  padding: 4% 5%;
 }
 
 .menu{
@@ -63,10 +68,10 @@ green #80A93D */
 
 /* -----------templates */
 .section{
-  margin-bottom: 5%;
+  margin-bottom: 6vh;
 }
 .sectionb{
-  margin-bottom: 10%;
+  margin-bottom: 10vh;
 }
 
 .padd3{
@@ -91,10 +96,12 @@ green #80A93D */
 /* -----------------------body */
 
 .Title{
-  margin-bottom: 5%;
-  margin-top: 2%;
+  /* margin-bottom: 5%;
+  margin-top: 2%; */
   font-family: 'Playfair Display SC', serif;
   color: #335B68;
+  font-weight: bold;
+  font-size:  2.125rem ;
 }
 .subtitle{
   font-family: 'Roboto', sans-serif;
@@ -105,54 +112,90 @@ green #80A93D */
 }
 
 .section-divider {
-  border-top: 3px solid #335b68; 
-  margin-left: 20%;
-  margin-right: 20%;
+  border-top: 3px solid; 
+  /* margin-left: 20%;
+  margin-right: 20%; */
   border-radius: 30px;
+  margin: 7vh 20vw 7vh ;
 }
 /* ----------- Welcome */
 .view {
-  background-image: url('./images/Vista y Roof/VISTA2.jpg');
-  background-size: cover; /* Adjust as needed */
-  background-repeat: no-repeat; /* Adjust as needed */
-  background-position: center; /* Adjust as needed */
+  /* background-image: url('./images/Vista y Roof/VISTA2.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;  */
 
   width:100%;
   height: auto;
-  padding:7%;
+
 }
 
 .transparent{
-  background-color: black;
-  opacity:.5;
-  width: 60%;
+  background-color:#282c34;
+  opacity:.7;
+  max-width: 80%;
   color: white;
   border-radius: 5px;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
 }
 
 .green{
   background-color: #789c3e;
   color: white;
   border-radius: 20px;
-  width:70vw;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
-.sec{
-  max-width: 15vw;
-  min-width: 100px;
-  margin: 20px;
+.pairr{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding:3%
+  /*flex-grow: 1;
+  width:60vw;
+  min-width: 300px;
+  
+   
   text-align: center;
+  
+  margin: 0vw 5vw;
+   */
 }
 
+.pairr img{
+  width: 25%;
+}
+
+/* @media(){
+} */
+.sec{
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin: 3vh 0;
+}
 .sec img{
   margin: 6% 0%;
+  width: 70%;
+  max-width: 70px;
 }
 
 #blue{
-  background-color: #335B68;
+  background-color: #374c53;
   width: 100vw;
+  padding: 8vh;
+  background-image: url('./icons/f8 copy.svg');
+  background-size: 20vh;
+  background-position:left;
+  background-repeat: no-repeat;
+  opacity: .8;
+  color: white;
 }
-
 
 #tbig{
   color:white;
@@ -175,23 +218,38 @@ green #80A93D */
 
 
 /* ----------- fotos */
+#fotosSection{
+
+  margin-top: 60px;
+}
+.fotos{
+  width: 100vw;
+  margin-top: 30px;
+}
+
 
 #scrol{
   overflow-x: auto;
+  white-space: 'nowrap'
 }
 
 #pill{
   border-radius: 60px ;
   border: none;
-  padding: 0.1% 1%;
+  padding: .5rem 1rem;
   margin: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#pill:hover{
+  box-shadow: none;
+  
 }
 
 .active-button {
   background-color: #4f656d;
   color:white;
   font-weight: bold;
-  /* color: #YourTextColor; */
 }
 .inactive-button {
   background-color: #D9D9D9;
@@ -200,7 +258,7 @@ green #80A93D */
 
 
 .bordered-image {
-  border: 2px solid green;
+  border: 2px solid #335B68;
 }
 
 #choice{
@@ -225,7 +283,7 @@ green #80A93D */
 
 .img:hover{
   opacity: .5;
-  border: 3px solid green;
+  border: 3px solid #316d85;
 }
 
 #myfoto{
@@ -251,9 +309,8 @@ green #80A93D */
 .overlay {
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 40%;
+
+
   background: linear-gradient(
     to top,
     rgba(0, 0, 0, 1) 0%,
@@ -261,7 +318,8 @@ green #80A93D */
   );
   transition: opacity 0.3s; /* Add a smooth fade transition */
   color: white;
-  padding: 12%
+  padding: 12%;
+  min-width: 100%;
 }
 
 .image-container:hover .overlay {
@@ -289,9 +347,6 @@ green #80A93D */
 }
 
 /* general */
-#aynose{
-  color: rgb(30, 33, 41);
-}
 #aynose h3{
   min-width: 40%;
 }
@@ -309,6 +364,12 @@ green #80A93D */
   min-width: 300px;
   margin: 1% 25px;
 }
+.AAA{
+  display: flex;
+  align-items: center;
+  
+  justify-content: space-evenly;
+}
 
 iframe{
   width: 70vw;
@@ -319,16 +380,22 @@ iframe{
 .contactBox{
   background-color: rgb(230, 227, 227);
   border-radius: 10px;
-  width: 60vw;
+  width: 90vw;
+  height: 60vh;
+  padding: 6vh 3vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contactA{
-  margin: 1%;
+  margin: 3% 0 ;
   background-color: #D9D9D9;
   padding: 1%;
   border-radius: 60px ;
   text-align: left;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  height: 10vh;
+
 }
 
 #wame:hover{
@@ -336,14 +403,22 @@ iframe{
 }
 
 .contactA img{
-  margin: 1% 2%;
-}
-.lils{
-  flex-basis: 30%;
+  max-width: 80px;
+  width: 65%;
+  
+  align-self: center;
+  justify-self: center;
+  
 }
 
+.lils{
+  text-align: center;
+  padding: 2%;
+}
+
+
 .borderb{
-  border-bottom: 2px solid #638132;
+  border-bottom: 2px solid #1c2b30;
 }
 
 /* -----------------------Footer */
@@ -352,3 +427,5 @@ footer {
   color: white;
   /* padding: 1% 10%; */
 }
+
+
