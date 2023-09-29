@@ -1,8 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import fotosData from '../db.json'
-import arrowL from '../icons/left-arrow.png'
 import arrowR from '../icons/right-arrow.png'
-import close from '../icons/close.svg'
 
 function Fotos () {
     //console.log(fotosData);
@@ -27,6 +25,7 @@ function Fotos () {
     function handleAreaChange(n) {
         setArea(n);
         setActive(0);
+        setIsVisible(true)
     }
 
     function handleImgChange(n) {
@@ -85,11 +84,11 @@ function Fotos () {
 
 
     return (
-        <div className="fotos sectionb ">
+        <div className="fotos sectionb">
           
 
             {/*-------- buttons */}
-            <div className='opts' >
+            <div className='opts section' >
                 {fotosData.map((item,index)=>(
                     <button key={index} type="button" 
                     className={`${area === index ? 'active-button' : 'inactive-button'}`} 
@@ -98,17 +97,45 @@ function Fotos () {
                         {item.name} 
                     </button>
                 ))}
-                <hr className="section-divider"></hr>
+                {/* <hr className="section-divider"></hr> */}
             </div>
 
+            {/* ---- todas las fotos en pequeño */}
+            <div className='section'
+            style={{
+                padding:"5px 3%",
+                margin:"0 3% 10%", 
+                backgroundColor:  "#D9D9D9", 
+                height:"17vh"}}
+                
+                >Todas las Fotos de {fotosData[area].name}
+
+                <div className='flex wrapBox'
+                style={{
+                    justifyContent:"flex-start", }} >
+                    {fotosData[area].fotos.map((foto,index)=>(
+                        <img 
+                        key={index}
+                        src={process.env.PUBLIC_URL + `/images/${fotosData[area].name}/${foto.path}` } 
+                        alt={`Image ${index}`} 
+                        style={{maxHeight:"5vw", minHeight:"40px", margin:"3px 1px "}}
+                        onClick={()=>handleImgChange(index)}
+                        className={`img ${active === index ? 'bordered-image' : ''}`} 
+                        />                        
+                    ))}
+                </div>
+            </div>
            
 
             <div 
             onTouchStart={handleTouchStart} 
             onTouchEnd={handleTouchEnd}
-            className='flex col section'
+            className='flex col '
+            style={{
+                // minHeight:"65vh", 
+                justifyContent:"flex-start"}}
             >   
-                <h3 className='subtitle tgreen'>
+                <h3 className='tgreen' id="bold" >
                     {fotosData[area].fotos[active].area != "" ?
                        fotosData[area].fotos[active].area
                     : 
@@ -153,14 +180,13 @@ function Fotos () {
             </div>
 
             {/* ---- todas las fotos en pequeño */}
-            {/* style={{ overflowX: 'scroll', whiteSpace: 'nowrap' }}  */}
-            <div className='section'
+            {/* <div className='section'
             style={{
                 padding:"1% 3%",
                 margin:"0 3% 10%", 
                 backgroundColor:  "#D9D9D9"}}
                 
-                >Todas las Fotos
+                >Todas las Fotos de {fotosData[area].name}
 
                 <div className='flex wrapBox section'
                 style={{
@@ -176,7 +202,7 @@ function Fotos () {
                         />                        
                     ))}
                 </div>
-            </div>
+            </div> */}
 
             <hr className="section-divider"></hr>
 

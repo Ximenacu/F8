@@ -1,6 +1,6 @@
-import icon1 from '../icons/land.png'
-import icon2 from '../icons/gardening.png'
-import icon3 from '../icons/excavatorW.png'
+import icon1 from '../icons//SVG/SVG/Terreno.svg'
+import icon2 from '../icons/SVG/SVG/Jardimmm.svg'
+import icon3 from '../icons/SVG/SVG/Area.svg'
 
 function Size() {
     return (
@@ -11,27 +11,28 @@ function Size() {
             <div className="flex section green"
             style={{width:"90vw", justifyContent:" space-evenly"}} >
 
-                <div className="sec" >
-                    <h4>Terreno</h4>
-                    <img src={icon1}></img>
-                    <h3>335 m</h3>
+                <div className="sec" id="bold" >
+                    <h4 id="bold" >Terreno</h4>
+                    <img id="icons" src={icon1}></img>
+                    <h3 id="bold" >335 m</h3>
                      
                 </div>
                 <div className="sec" >
-                    <h4 style={{textAlign:"left"}} 
-                    >Jardín</h4>
-                    <img src={icon2}></img>
-                    <h3>100 m</h3>
+                    <h6 id="bold" >Construcción</h6>
+                    <img id="icons"src={icon3}></img>
+                    <h3 id="bold" >296 m</h3>
                 </div>
                 <div className="sec" >
-                    <h5>Construcción</h5>
-                    <img src={icon3}></img>
-                    <h3>296 m</h3>
+                    <h4 id="bold"  style={{textAlign:"left"}} 
+                    >Jardín</h4>
+                    <img id="icons" src={icon2}></img>
+                    <h3 id="bold" >100 m</h3>
                 </div>
+                
                 
             </div>
 
-            <div id="blue" className=' padd3'>
+            <div id="blue" className=' padd3 f8back'>
                 <h1 className="Title section"
                  style={{color:"white"}} >
                     Datos Generales

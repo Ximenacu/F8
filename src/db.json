@@ -34,77 +34,77 @@
             },
             {
                 "path": "c1_entrada.jpg", 
-                "notes": "Entrada del primer Recamara con tapanco. Este Recamara ve hacia la calle.", 
-                "area": "Recamara con Tapanco 1"
+                "notes": "Entrada de la primer recamara con tapanco. Esta Recamara ve hacia la calle.", 
+                "area": "Recamara con Tapanco A"
             },
             {
                 "path": "c1_1.jpg", 
-                "notes": "Planta Baja. La puerta da hacia el baño y vestidor.", 
-                "area": "Recamara con Tapanco 1"
+                "notes": "Planta Baja de la recamara. La puerta da hacia el baño y vestidor.", 
+                "area": "Recamara con Tapanco A"
             },
             {
                 "path": "c1_2.jpg", 
                 "notes": "", 
-                "area": "Recamara con Tapanco 1"
+                "area": "Recamara con Tapanco A"
             },
             {
                 "path": "c1_3.jpg", 
                 "notes": "", 
-                "area": "Recamara con Tapanco 1"
+                "area": "Recamara con Tapanco A"
             },
             {
                 "path": "c1_baño.jpg", 
                 "notes": "Baño con vestidor", 
-                "area": "Recamara con Tapanco 1"
+                "area": "Recamara con Tapanco A"
             },
             {
                 "path": "c1_closet.jpg", 
                 "notes": "Baño con vestidor", 
-                "area": "Recamara con Tapanco 1"
+                "area": "Recamara con Tapanco A"
             },
             {
                 "path": "c1_tapanco.jpg", 
                 "notes": "Planta Alta.", 
-                "area": "Recamara con Tapanco 1"
+                "area": "Recamara con Tapanco A"
             },
             {
                 "path": "c1_tapanco2.jpg", 
                 "notes": "Planta Alta.", 
-                "area": "Recamara con Tapanco 1"
+                "area": "Recamara con Tapanco A"    
             },
             {
                 "path": "c2_1.jpg", 
-                "notes": "Planta Baja del segundo Recamara con tapanco. Este Recamara tiene  el muro de escalar, closet, y su baño conecta con el tercer Recamara.", 
-                "area": "Recamara con Tapanco 2"
+                "notes": "Planta Baja de la segunda Recamara con tapanco. Esta Recamara tiene  el muro de escalar, closet, y su baño conecta con la tercer Recamara.", 
+                "area": "Recamara con Tapanco B"
             },
             {
                 "path": "c2_2.jpg", 
-                "notes": "Planta Baja del segundo Recamara con tapanco. Este Recamara tiene el muro de escalar y su baño conecta con el tercer Recamara. (Puerta de la izquierda: Baño. Puerta de la derecha: entrada)", 
-                "area": "Recamara con Tapanco 2"
+                "notes": "Planta Baja de la segunda Recamara con tapanco. Esta Recamara tiene el muro de escalar y su baño conecta con la tercer Recamara. (Puerta de la izquierda: Baño. Puerta de la derecha: entrada)", 
+                "area": "Recamara con Tapanco B"
             },
             {
                 "path": "muro.jpg", 
-                "notes": "El muro de escalar es una manera divertida de subir al segundo piso de este Recamara", 
-                "area": "Recamara con Tapanco 2"
+                "notes": "El muro de escalar es una manera divertida de subir al segundo piso de esta Recamara", 
+                "area": "Recamara con Tapanco B"
             },
             {
                 "path": "muro2.jpg", 
                 "notes": "Tapanco visto desde abajo", 
-                "area": "Recamara con Tapanco 2"
+                "area": "Recamara con Tapanco B"
             },
             {
                 "path": "c2_baño.jpg", 
-                "notes": "Baño completo que conecta con el tercer Recamara", 
-                "area": "Recamara con Tapanco 2"
+                "notes": "Baño completo que conecta con la tercer Recamara", 
+                "area": "Recamara con Tapanco B"
             },
             {
                 "path": "c2_baño2.jpg", 
-                "notes": "Baño completo que conecta con el tercer Recamara", 
-                "area": "Recamara con Tapanco 2"
+                "notes": "Baño completo que conecta con la tercer Recamara", 
+                "area": "Recamara con Tapanco B"
             },
             {
                 "path": "c3.jpg", 
-                "notes": "Recamara sin tapanco con vista a la calle que conecta con el Recamara con Tapanco 2", 
+                "notes": "Recamara sin tapanco con vista a la calle que conecta con la Recamara con Tapanco B", 
                 "area": "Recamara #3"
             }
         ]
@@ -114,7 +114,7 @@
         "fotos":[
             {
                 "path": "cocina1.jpg", 
-                "notes": "Cocina en l planta baja, con vista al jardín y barra", 
+                "notes": "Cocina en la planta baja, con vista al jardín y barra", 
                 "area": ""
             },
             {
@@ -128,5 +128,108 @@
                 "area": ""
             }
         ]
+    }, 
+    {
+        "name": "Planta Baja",
+        "fotos":[
+            {
+                "path": "PB1.jpg", 
+                "notes": "Puerta de la entrada, vista desde el jardín.", 
+                "area": ""
+            },{
+                "path": "PB2.jpg", 
+                "notes": "Area de oficina, patio interno, medio baño, visto desde área de sala.", 
+                "area": ""
+            },
+            {
+                "path": "baja.jpg", 
+                "notes": "", 
+                "area": ""
+            }, 
+            {
+                "path": "PB4.jpg", 
+                "notes": "", 
+                "area": ""
+            }, 
+            {
+                "path": "PB5.jpg", 
+                "notes": "Medio baño planta baja.", 
+                "area": ""
+            }, 
+            {
+                "path": "PB6.jpg", 
+                "notes": "", 
+                "area": ""
+            }, 
+            {
+                "path": "sala.jpg", 
+                "notes": "", 
+                "area": ""
+            }, {
+                "path": "sala2.jpg", 
+                "notes": "", 
+                "area": ""
+            }, {
+                "path": "sala (2).jpg", 
+                "notes": "", 
+                "area": ""
+            }, {
+                "path": "PB7.jpg", 
+                "notes": "", 
+                "area": ""
+            }
+        ]
+    }, 
+    {
+        "name": "Jardin", 
+        "fotos":[
+            {
+                "path": "j1.jpg", 
+                "notes": "", 
+                "area": ""
+            },{
+                "path": "j2.jpg", 
+                "notes": "Deck del Jardín", 
+                "area": ""
+            },{
+                "path": "j3.jpg", 
+                "notes": "", 
+                "area": ""
+            },{
+                "path": "j4.jpg", 
+                "notes": "", 
+                "area": ""
+            },{
+                "path": "fachadaDetras.jpg", 
+                "notes": "", 
+                "area": ""
+            }
+        ]
+    }, 
+    {
+        "name": "Otras Areas", 
+        "fotos":[
+            {
+                "path": "OA1.jpg", 
+                "notes": "", 
+                "area": "Recibidor"
+            }, 
+            {
+                "path": "salaup.jpg", 
+                "notes": "Area de sala de TV", 
+                "area": "Planta Alta"
+            }, 
+            {
+                "path": "OA2.jpg", 
+                "notes": "Patio interno, visto desde el recibidor.", 
+                "area": ""
+            }, {
+                "path": "abrol.jpg", 
+                "notes": "Sangre de Cristo en el patio de enfrente.", 
+                "area": ""
+            }
+        ]
     }
+
+   
 ]

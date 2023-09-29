@@ -110,10 +110,6 @@
         ]
     }, 
     {
-        "name": "Vista y Roof", 
-        "fotos":[]
-    }, 
-    {
         "name": "Cocina", 
         "fotos":[
             {
@@ -132,27 +128,5 @@
                 "area": ""
             }
         ]
-    }, 
-    {
-        "name": "Planta Baja",
-        "fotos":[]
-    }, 
-    {
-        "name": "Jardin", 
-        "fotos":[]
-    }, 
-    {
-        "name": "Fraccionamiento", 
-        "fotos":[]
-    }, 
-    {
-        "name": "Detalles", 
-        "fotos":[]
-    }, 
-    {
-        "name": "Otras Areas", 
-        "fotos":[]
     }
-
-   
 ]

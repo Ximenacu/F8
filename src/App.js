@@ -11,7 +11,6 @@ import WA from './icons/WA.png'
 import mail from './icons/mail.png'
 import github from './icons/github.png'
 import linkedin from './icons/linkedin.png'
-import f8 from './icons/f8.svg'
 
 import React, { useState, useEffect } from 'react';
 
@@ -63,6 +62,7 @@ function App() {
           <h1 className='Title' id="fotosSection">Fotos</h1>
           
           <Fotos/>
+          
           <Contact/>
         </div>
       ) : 
@@ -101,12 +101,14 @@ function App() {
       </div> */}
 
       <footer className='padd3 flex' >
-        <img src={logo} style={{height:"7vh"}} ></img>
+        <div style={{ width:"25%"}} >
+          <img src={logo} style={{height:"7vh"}} ></img>
+        </div>
         <div style={{flexGrow:"4"}}>
-          <div style={{display:"flex", width:"100%", justifyContent:"center", flexWrap:" wrap"}} >
-            <h5 style={{width:"50%", textAlign:"right"}} >Coded by Ximena Cu</h5>
-            <div style={{width:"50%"}}>
-              Contact me: 
+
+            <h5 >Coded by Ximena Cu</h5>
+            <div >
+              <p style={{marginBottom:"0"}} > Contact me: </p> 
               <a href="https://wa.me/524423185033">
               <img src={WA} style={{maxHeight:"3vh", margin:"1%"}}  ></img></a>
               <a href="mailto:ximenacuu@gmail.com" >
@@ -120,9 +122,7 @@ function App() {
             </div>
             
 
-          </div>
-          
-          <a href="https://www.flaticon.com/free-icons/hamburger" title="hamburger icons">Icons created by Flaticon</a>
+  
         </div>
       </footer> 
     </div>

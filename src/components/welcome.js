@@ -1,9 +1,14 @@
-import icon1 from '../icons/noun-house-5735873.svg'
-import icon2 from '../icons/noun-bathroom-2711832.svg'
-import icon3 from '../icons/noun-build-3551057.svg'
-import icon4 from '../icons/noun-garden-1537524.svg'
-import img1 from '../images/Fachada/fachada1.jpg'
-import img2 from '../images/Jardin/fachadaDetras.jpg'
+import icon1 from '../icons/SVG/SVG/Casa.svg'
+import icon2 from '../icons/SVG/SVG/Bathroom.svg'
+import icon3 from '../icons/SVG/SVG/Area.svg'
+import icon4 from '../icons/SVG/SVG/Jardimmm.svg'
+
+import img1 from '../images/carrusel/fachada1.jpg'
+import img2 from '../images/carrusel/VISTA - Copy.jpg'
+import img3 from '../images/carrusel/fachadaDetras.jpg'
+import img4 from '../images/carrusel/muro.jpg'
+import img5 from '../images/carrusel/c1_entrada - Copy.jpg'
+import img6 from '../images/carrusel/p_vista.jpg'
 
 import ImageCarousel from './carousel'
 
@@ -14,11 +19,11 @@ function Welcome({setFotos}) {
     <div className="Welcome flex col">
 
         <div className='view section flex'>
-            <ImageCarousel images={[img1, img2, img1, img2]} />
+            <ImageCarousel images={[img1, img2, img3, img4, img5, img6]} />
 
             <div className='transparent padd3' >
-                <h2 className='Title' style={{color:"white", fontSize:"1.6rem"}} >¡Bienvenido a la F8!</h2>
-                <p>Ubicada en el fraccionamiento de Misión San Jerónimo, 
+                <h2  style={{color:"white", fontSize:"1.6rem"}} >¡Bienvenido a la F8!</h2>
+                <p className='subtitle' >Ubicada en el fraccionamiento de Misión San Jerónimo, 
                  esta casa cuenta con una vista espectacular, 
                  4 recámaras, dos de ellas con tapanco, 
                   jardín, una excelente ubicación<br/> y ... ¡un muro de escalar!</p>
@@ -30,27 +35,27 @@ function Welcome({setFotos}) {
          >
             <div className='pairr' >
                 <div>
-                    <h5>4 Recamaras</h5>
-                    <img src={icon1}  ></img>
-                     
+                    
+                    <img id="icons" src={icon1}  ></img>
+                     <h5 id="bold" >4 Recamaras</h5>
                 
                 </div>
-                <div  >
-                    <h5>4.5 Baños</h5> 
-                    <img src={icon2}></img>
+                <div >
                     
+                    <img id="icons" src={icon2}></img>
+                    <h5 id="bold" >4.5 Baños</h5> 
                 </div>
             </div>
             <div className='pairr' >
                 <div >
-                    <h5>300 m de construcción</h5>
-                    <img src={icon3}></img>
-                     
+                    
+                    <img id="icons" src={icon3}></img>
+                    <h5 id="bold" >300 m de construcción</h5> 
                 </div>
                 <div  >
-                    <h5>Jardín y Muro de Escalar</h5> 
-                    <img src={icon4}></img>
-                    
+                     
+                    <img id="icons" src={icon4}></img>
+                    <h5 id="bold" >Jardín y Muro de Escalar</h5>
                 </div>
             </div>
             

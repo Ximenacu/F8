@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="contactBox" >
         <h2 className='Title section' >¡Contactanos!</h2>
 
-        <p className='section'>¿Tienes alguna duda o <br/> te gustaría conocer la casa? <br/>
+        <p id="bold"  className='section'>¿Tienes alguna duda o <br/> te gustaría conocer la casa? <br/>
           ¡Envíanos un mensaje!
         </p>
 
