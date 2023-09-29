@@ -1,31 +1,35 @@
 {
   "files": {
-    "main.css": "/F8/static/css/main.54c107b6.css",
-    "main.js": "/F8/static/js/main.8a5a0673.js",
+    "main.css": "/F8/static/css/main.f20c44a4.css",
+    "main.js": "/F8/static/js/main.286ffd5b.js",
     "static/js/787.28cb0dcd.chunk.js": "/F8/static/js/787.28cb0dcd.chunk.js",
+    "static/media/VISTA - Copy.jpg": "/F8/static/media/VISTA - Copy.0990fd55fb6f10e363c7.jpg",
     "static/media/mail.png": "/F8/static/media/mail.1c4e30f528c073e9322d.png",
-    "static/media/fachada1.jpg": "/F8/static/media/fachada1.087ce8e724ccde4c580b.jpg",
+    "static/media/fachada1.jpg": "/F8/static/media/fachada1.395b81b80537e38ba72a.jpg",
+    "static/media/p_vista.jpg": "/F8/static/media/p_vista.ba9cafe04f7d27e0df64.jpg",
     "static/media/SANJE.jpg": "/F8/static/media/SANJE.afcaf4ec40c2f44647dd.jpg",
     "static/media/fachadaDetras.jpg": "/F8/static/media/fachadaDetras.5506dd717ce935188fab.jpg",
+    "static/media/muro.jpg": "/F8/static/media/muro.7259877a37a74630b942.jpg",
     "static/media/caseta.jpg": "/F8/static/media/caseta.757a6f97198442d0d9f6.jpg",
+    "static/media/c1_entrada - Copy.jpg": "/F8/static/media/c1_entrada - Copy.bc6f668d16617be0202c.jpg",
     "static/media/QR whats.jpg": "/F8/static/media/QR whats.d56d4f155ed2cc5f5a31.jpg",
     "static/media/logo.svg": "/F8/static/media/logo.b5abf567496d653c5cd57ae6cbc0b12a.svg",
-    "static/media/noun-bathroom-2711832.svg": "/F8/static/media/noun-bathroom-2711832.63bc891c3d5c745e88c9fdc8428e609f.svg",
+    "static/media/Jardimmm.svg": "/F8/static/media/Jardimmm.97d9bdf2fdeaa6ef09da2db2c0692dea.svg",
+    "static/media/Area.svg": "/F8/static/media/Area.3b95d171e4c2f656eb24ddb06b641760.svg",
     "static/media/f8 copy.svg": "/F8/static/media/f8 copy.cc558bfbd2abb7af0fc3.svg",
     "static/media/f8.svg": "/F8/static/media/f8.eb6935eb6f0ac5fba513216ab8664e59.svg",
-    "static/media/noun-house-5735873.svg": "/F8/static/media/noun-house-5735873.7aa5478d166055fc11dc4d15979e1b3c.svg",
+    "static/media/Casa.svg": "/F8/static/media/Casa.9b1f265ca2e23968d68b65becfa2f696.svg",
     "index.html": "/F8/index.html",
-    "static/media/noun-garden-1537524.svg": "/F8/static/media/noun-garden-1537524.f14006fb2f9386a099a7c08804e70a8a.svg",
-    "static/media/close.svg": "/F8/static/media/close.1d7bbcc29fecc8e45891b2fdbd419b98.svg",
-    "static/media/noun-build-3551057.svg": "/F8/static/media/noun-build-3551057.cd875f3242c4928e4117c975509c2046.svg",
+    "static/media/Terreno.svg": "/F8/static/media/Terreno.de15ee4bcab61d60e0f6a4ea4a5b6e76.svg",
+    "static/media/Bathroom.svg": "/F8/static/media/Bathroom.96af70cdd973d8e76f9e15aea1288734.svg",
     "static/media/hamIconb.svg": "/F8/static/media/hamIconb.0489e3dc1f19bb371da9d208f3a778bb.svg",
     "static/media/hamIconw.svg": "/F8/static/media/hamIconw.62cde2d1263dfb255e09a687832dd848.svg",
-    "main.54c107b6.css.map": "/F8/static/css/main.54c107b6.css.map",
-    "main.8a5a0673.js.map": "/F8/static/js/main.8a5a0673.js.map",
+    "main.f20c44a4.css.map": "/F8/static/css/main.f20c44a4.css.map",
+    "main.286ffd5b.js.map": "/F8/static/js/main.286ffd5b.js.map",
     "787.28cb0dcd.chunk.js.map": "/F8/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54c107b6.css",
-    "static/js/main.8a5a0673.js"
+    "static/css/main.f20c44a4.css",
+    "static/js/main.286ffd5b.js"
   ]
 }
