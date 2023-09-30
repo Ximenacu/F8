@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="Contact flex sectionb padd3" >
 
       <div className="contactBox" >
-        <h2 className='Title section' >¡Contactanos!</h2>
+        <h2 className='Title section' >¡Contáctanos!</h2>
 
         <p id="bold"  className='section'>¿Tienes alguna duda o <br/> te gustaría conocer la casa? <br/>
           ¡Envíanos un mensaje!

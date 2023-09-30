@@ -4,7 +4,7 @@
         "fotos":[
             {
                 "path": "fachada1.jpg", 
-                "notes": "Además de la entrada principal, la casa cuenta con dos entras alternas: al jardín y al área de oficina de la planta baja.", 
+                "notes": "Además de la entrada principal, la casa cuenta con dos entradas alternas: al jardín y al área de oficina de la planta baja.", 
                 "area": ""
             },
             {
@@ -15,97 +15,97 @@
         ]
     }, 
     {
-        "name": "Recamaras",
+        "name": "Recámaras",
         "fotos":[
             {
                 "path": "p_vista.jpg", 
-                "notes": "Vista de la Recamara Principal", 
-                "area": "Recamara Principal"
+                "notes": "Vista de la Recámara Principal", 
+                "area": "Recámara Principal"
             },
             {
                 "path": "p_baño.jpg", 
                 "notes": "Baño principal", 
-                "area": "Recamara Principal"
+                "area": "Recámara Principal"
             },
             {
                 "path": "p_closet.jpg", 
                 "notes": "Entrada del closet principal.", 
-                "area": "Recamara Principal"
+                "area": "Recámara Principal"
             },
             {
                 "path": "c1_entrada.jpg", 
-                "notes": "Entrada de la primer recamara con tapanco. Esta Recamara ve hacia la calle.", 
-                "area": "Recamara con Tapanco A"
+                "notes": "Entrada a recámara A con tapanco. Esta Recámara tiene vista a la la calle.", 
+                "area": "Recámara A con Tapanco"
             },
             {
                 "path": "c1_1.jpg", 
-                "notes": "Planta Baja de la recamara. La puerta da hacia el baño y vestidor.", 
-                "area": "Recamara con Tapanco A"
+                "notes": "Planta Baja de la recámara. La puerta da hacia el baño y vestidor.", 
+                "area": "Recámara A con Tapanco"
             },
             {
                 "path": "c1_2.jpg", 
                 "notes": "", 
-                "area": "Recamara con Tapanco A"
+                "area": "Recámara A con Tapanco"
             },
             {
                 "path": "c1_3.jpg", 
                 "notes": "", 
-                "area": "Recamara con Tapanco A"
+                "area": "Recámara A con Tapanco"
             },
             {
                 "path": "c1_baño.jpg", 
                 "notes": "Baño con vestidor", 
-                "area": "Recamara con Tapanco A"
+                "area": "Recámara A con Tapanco"
             },
             {
                 "path": "c1_closet.jpg", 
-                "notes": "Baño con vestidor", 
-                "area": "Recamara con Tapanco A"
+                "notes": "Vestidor", 
+                "area": "Recámara A con Tapanco"
             },
             {
                 "path": "c1_tapanco.jpg", 
-                "notes": "Planta Alta.", 
-                "area": "Recamara con Tapanco A"
+                "notes": "Planta Alta", 
+                "area": "Recámara A con Tapanco"
             },
             {
                 "path": "c1_tapanco2.jpg", 
-                "notes": "Planta Alta.", 
-                "area": "Recamara con Tapanco A"    
+                "notes": "Planta Alta con vista a la cañada", 
+                "area": "Recámara A con Tapanco"    
             },
             {
                 "path": "c2_1.jpg", 
-                "notes": "Planta Baja de la segunda Recamara con tapanco. Esta Recamara tiene  el muro de escalar, closet, y su baño conecta con la tercer Recamara.", 
-                "area": "Recamara con Tapanco B"
+                "notes": "Planta Baja de la segunda Recámara con tapanco. Esta Recámara tiene  el muro de escalar, closet, y su baño conecta con la tercer Recámara.", 
+                "area": "Recámara B con Tapanco"
             },
             {
                 "path": "c2_2.jpg", 
-                "notes": "Planta Baja de la segunda Recamara con tapanco. Esta Recamara tiene el muro de escalar y su baño conecta con la tercer Recamara. (Puerta de la izquierda: Baño. Puerta de la derecha: entrada)", 
-                "area": "Recamara con Tapanco B"
+                "notes": "Puerta de la izquierda: Baño. Puerta de la derecha: entrada", 
+                "area": "Recámara B con Tapanco"
             },
             {
                 "path": "muro.jpg", 
-                "notes": "El muro de escalar es una manera divertida de subir al segundo piso de esta Recamara", 
-                "area": "Recamara con Tapanco B"
+                "notes": "El muro de escalar es una manera divertida de subir al segundo piso de esta Recámara", 
+                "area": "Recámara B con Tapanco"
             },
             {
                 "path": "muro2.jpg", 
                 "notes": "Tapanco visto desde abajo", 
-                "area": "Recamara con Tapanco B"
+                "area": "Recámara B con Tapanco"
             },
             {
                 "path": "c2_baño.jpg", 
-                "notes": "Baño completo que conecta con la tercer Recamara", 
-                "area": "Recamara con Tapanco B"
+                "notes": "Baño completo que conecta con la tercer Recámara", 
+                "area": "Recámara B con Tapanco"
             },
             {
                 "path": "c2_baño2.jpg", 
-                "notes": "Baño completo que conecta con la tercer Recamara", 
-                "area": "Recamara con Tapanco B"
+                "notes": "Baño completo que conecta con la tercer Recámara", 
+                "area": "Recámara B con Tapanco"
             },
             {
                 "path": "c3.jpg", 
-                "notes": "Recamara sin tapanco con vista a la calle que conecta con la Recamara con Tapanco B", 
-                "area": "Recamara #3"
+                "notes": "Recámara sin tapanco con vista a la calle que conecta con la Recámara B con Tapanco", 
+                "area": "Recámara #3"
             }
         ]
     }, 

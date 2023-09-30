@@ -14,7 +14,7 @@ function Size() {
                 <div className="sec" id="bold" >
                     <h4 id="bold" >Terreno</h4>
                     <img id="icons" src={icon1}></img>
-                    <h3 id="bold" >335 m</h3>
+                    <h3 id="bold" >233 m</h3>
                      
                 </div>
                 <div className="sec" >
@@ -26,7 +26,7 @@ function Size() {
                     <h4 id="bold"  style={{textAlign:"left"}} 
                     >Jardín</h4>
                     <img id="icons" src={icon2}></img>
-                    <h3 id="bold" >100 m</h3>
+                    <h3 id="bold" >80 m</h3>
                 </div>
                 
                 

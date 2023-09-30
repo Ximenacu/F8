@@ -1,13 +1,14 @@
 import React, { useState, useRef, useEffect } from 'react';
 import fotosData from '../db.json'
 import arrowR from '../icons/right-arrow.png'
+import arrowL from '../icons/left-arrow.png'
 
 function Fotos () {
     //console.log(fotosData);
     const [area, setArea]=useState(0);
     const [active, setActive]=useState(0);
     const [isVisible, setIsVisible] = useState(true);
-    const secs = 6000;
+    const secs = 3000;
     // const [modal, setModal]=useState(false);
 
     useEffect(() => {
@@ -25,7 +26,7 @@ function Fotos () {
     function handleAreaChange(n) {
         setArea(n);
         setActive(0);
-        setIsVisible(true)
+        //setIsVisible(true)
     }
 
     function handleImgChange(n) {
@@ -66,20 +67,31 @@ function Fotos () {
 
     // ---------- handle swipe 
     let touchStartX = 0;
+    let touchStartY = 0;
 
     const handleTouchStart = (e) => {
+        console.log("toush start")
         touchStartX = e.touches[0].clientX;
+        touchStartY = e.touches[0].clientY;
+        
     };
 
     const handleTouchEnd = (e) => {
+        console.log("toush start")
         const endX = e.changedTouches[0].clientX;
+        const endY = e.changedTouches[0].clientY;
         const deltaX = endX - touchStartX;
+        const deltaY = endY - touchStartY;
+        
 
-        if(deltaX < 0  || deltaX===0  ){  // NEXT 
-            activeArr();
-        } else { // PREV
-            activeArr("L");
+        if( Math.abs(deltaY)<20 || deltaX + deltaY > 0 ){
+            if(deltaX < 0  || deltaX===0  ){  // NEXT 
+                activeArr();
+            } else { // PREV
+                activeArr("L");
+            }
         }
+        
     };
 
 
@@ -128,32 +140,49 @@ function Fotos () {
            
 
             <div 
-            onTouchStart={handleTouchStart} 
-            onTouchEnd={handleTouchEnd}
             className='flex col '
             style={{
                 // minHeight:"65vh", 
-                justifyContent:"flex-start"}}
+                justifyContent:"flex-start", 
+                position:"relative"}}
             >   
                 <h3 className='tgreen' id="bold" >
                     {fotosData[area].fotos[active].area != "" ?
                        fotosData[area].fotos[active].area
                     : 
                        fotosData[area].name
-                    }
+                    } 
 
                 </h3>
+                <button className='noStyle myfotobutton' id="prev"
+                    onClick={()=>{console.log("prev"); activeArr("L")}}>
+                    {/* <img src={arrowL} ></img> */}
+                </button>
+                <button className='noStyle myfotobutton' id="next"
+                    onClick={()=>{console.log("next"); activeArr("R")}}>
+                    {/* <img src={arrowR} ></img> */}
+                </button>
 
                 <div 
+                    onTouchStart={handleTouchStart} 
+                    onTouchEnd={handleTouchEnd}
                 style={{
-                        backgroundColor:"#335B68",
+                        
                         position: "relative" ,
                         maxWidth: '90vw', 
-                     
+                        // position:"relative", 
                         height: 'auto', 
 
                     }}
-                >
+                >   
+                    {isVisible && 
+                        <div style={{position:"absolute", top: "10%", left:"10%",transition: "opacity 0.3s" }}>
+                            Desliza para ver más
+                        <img src={arrowR} style={{
+                            alignSelf:"flex-end", 
+                            }} ></img> 
+                        </div>
+                    }
                     <img
                         src={process.env.PUBLIC_URL + `/images/${fotosData[area].name}/${fotosData[area].fotos[active].path}`}
                         style={{
@@ -162,18 +191,19 @@ function Fotos () {
                             // maxHeight: '90vh',
                             // height: 'auto', 
                             width:"100%",
-                            maxHeight:"100%"
+                            maxHeight:"85vh"
                             
                         }}
                     />
                     {fotosData[area].fotos[active].notes ?
                         <div className="overlay flex col">
-                            {isVisible && <img src={arrowR} style={{alignSelf:"flex-end", transition: "opacity 0.3s"}} ></img> }
                             {fotosData[area].fotos[active].notes} 
                         </div>
                         : 
                         null
                     }
+
+
                 </div>
                 
 

@@ -5,7 +5,7 @@ import Fotos from './components/fotos'
 import Size from './components/size'
 import Location from './components/location'
 import Contact from './components/contact'
-
+import arrowL from './icons/left-arrow.png'
 import logo from './logo.svg'
 import WA from './icons/WA.png'
 import mail from './icons/mail.png'
@@ -15,13 +15,13 @@ import linkedin from './icons/linkedin.png'
 import React, { useState, useEffect } from 'react';
 
 import hamIconb from './icons/hamIconb.svg'
-import hamIconw from './icons/hamIconw.svg'
-// style={{display: "flex"}}
+
+
 
 function App() {
   const [menu, setMenu]=useState(false);
   const [fotos, setFotos]=useState(false);  
-  //const [field , setField]=useState("Fotos")
+  
 
 
   return (
@@ -59,8 +59,11 @@ function App() {
 
       { fotos ? (
         <div>
-          <h1 className='Title' id="fotosSection">Fotos</h1>
-          
+          <div className='' style={{display:"flex", alignItems:"center", width:"100%"}} >
+            <img src={arrowL  } style={{justifySelf:"flex-start", marginLeft:"1vw"}} onClick={()=>{setFotos(false)}} ></img>
+            <h1 className='Title' id="fotosSection" style={{justifySelf:"center", flexGrow:"1"}} >Fotos</h1>
+          </div>
+
           <Fotos/>
           
           <Contact/>

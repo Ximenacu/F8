@@ -50,7 +50,7 @@ function Welcome({setFotos}) {
                 <div >
                     
                     <img id="icons" src={icon3}></img>
-                    <h5 id="bold" >300 m de construcción</h5> 
+                    <h5 id="bold" >296 m de construcción</h5> 
                 </div>
                 <div  >
                      
